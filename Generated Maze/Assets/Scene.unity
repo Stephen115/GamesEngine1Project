@@ -254,8 +254,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  timeLabel: {fileID: 0}
-  scoreLabel: {fileID: 0}
+  timeLabel: {fileID: 1966176014}
+  scoreLabel: {fileID: 1280697454}
 --- !u!114 &257022546
 MonoBehaviour:
   m_ObjectHideFlags: 0
