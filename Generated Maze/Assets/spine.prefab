@@ -60,5 +60,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numSegments: 4
+  segmentDist: 0.5
   headPrefab: {fileID: 7581988480698697504, guid: fe86f19a1a4a52843a53872fcb343ba7, type: 3}
   segmentPrefab: {fileID: 4109537680402307183, guid: 46cc64c522626cd45aa442941b461245, type: 3}

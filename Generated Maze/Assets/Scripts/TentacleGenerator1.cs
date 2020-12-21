@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TentacleGenerator1 : MonoBehaviour {
     public int numSegments;
+    public float segmentDist;
     public GameObject headPrefab;
     public GameObject segmentPrefab;
 
@@ -12,7 +13,7 @@ public class TentacleGenerator1 : MonoBehaviour {
     void Awake () {
         for (int i = 0; i < numSegments; i++)
         {
-            Vector3 pos = -i * Vector3.forward * 1.1f; // Head created first and then everything else behind
+            Vector3 pos = -i * Vector3.forward * segmentDist; // Head created first and then everything else behind
             GameObject prefab = (i == 0) ? headPrefab : segmentPrefab; // inline if statement
             GameObject segment = GameObject.Instantiate<GameObject>(prefab);
 
