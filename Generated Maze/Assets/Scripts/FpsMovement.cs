@@ -35,9 +35,9 @@ public class FpsMovement : MonoBehaviour
 
     void Update()
     {
-        MoveCharacter();
-        RotateCharacter();
-        RotateCamera();
+        //MoveCharacter();
+        //RotateCharacter();
+        //RotateCamera();
     }
 
     private void MoveCharacter()
