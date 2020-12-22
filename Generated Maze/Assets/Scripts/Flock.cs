@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Flock : MonoBehaviour
 {
-    public float speed = 0.1f;
+    public float speed = 2f;
     float rotationSpeed = 4.0f;
     Vector3 averageHeading;
     Vector3 averagePosition;
-    float neighbourDistance = 3.0f;
+    float neighbourDistance = 4.0f;
     private float Tankx;
     private float Tanky;
     private float Tankz;
