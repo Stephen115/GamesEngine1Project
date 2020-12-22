@@ -4,13 +4,15 @@ using UnityEngine;
 public class MazeMeshGenerator
 {
     // generator params
+    public static float widthSet = 3.75f;     // how wide are hallways
+    public static float heightSet = 3.75f;    // how tall are hallways
     public float width;     // how wide are hallways
     public float height;    // how tall are hallways
 
     public MazeMeshGenerator()
     {
-        width = 3.75f;
-        height = 3.5f;
+        width = MazeMeshGenerator.widthSet;
+        height = MazeMeshGenerator.heightSet;
     }
 
     public Mesh FromData(int[,] data)

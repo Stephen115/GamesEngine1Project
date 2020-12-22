@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6187006235055297087}
   - component: {fileID: 8230431853862577909}
   - component: {fileID: 427335334243569123}
+  - component: {fileID: 5516461509026201548}
   m_Layer: 0
   m_Name: CreatureHead
   m_TagString: Untagged
@@ -89,7 +90,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7581988480698697504}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a1f17feabe094247aebe436ca2d3d24, type: 3}
   m_Name: 
@@ -97,3 +98,16 @@ MonoBehaviour:
   angle: 20
   frequency: 1
   theta: 0
+--- !u!114 &5516461509026201548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7581988480698697504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520cb59cce79e3043a0d87c9e16b3010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1

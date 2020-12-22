@@ -7,7 +7,7 @@ public class MazeDataGenerator
 
     public MazeDataGenerator()
     {
-        placementThreshold = .1f;                               // 1
+        placementThreshold = .2f;                               // 1
     }
 
     public int[,] FromDimensions(int sizeRows, int sizeCols)    // 2

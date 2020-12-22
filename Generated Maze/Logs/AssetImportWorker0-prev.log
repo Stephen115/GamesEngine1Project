@@ -15,12 +15,12 @@ D:/steph/Git Desktop/GamesEngine1Project/Generated Maze
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64650
+51938
 Successfully changed project path to: D:/steph/Git Desktop/GamesEngine1Project/Generated Maze
 D:/steph/Git Desktop/GamesEngine1Project/Generated Maze
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 486.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.28 ms.
+Refreshing native plugins compatible for Editor in 88.61 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.14 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/steph/Git Desktop/GamesEngine1Project/Generated Maze/Assets
@@ -36,26 +36,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002334 seconds.
+Registered in 0.002469 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.50 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 64.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.531 seconds
+- Completed reload, in  1.568 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006130 seconds.
+Registered in 0.006710 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.90 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 72.26 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -65,108 +65,184 @@ RoslynAnalysisRunner has terminated.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.52.1
 Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
+- Completed reload, in  1.214 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.0 MB.
-System memory in use after: 103.1 MB.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 2123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.4 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 2.462000 ms (FindLiveObjects: 0.265400 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.026200 ms  DeleteObjects: 0.112400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/globalFlock.cs
-  artifactKey: Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/globalFlock.cs using Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de79e5572acc6a1903ecdb343ccdf86') in 0.044902 seconds
-  Import took 0.049319 seconds .
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 2.320800 ms (FindLiveObjects: 0.245900 ms CreateObjectMapping: 0.056400 ms MarkObjects: 1.919400 ms  DeleteObjects: 0.098000 ms)
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006349 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 2055 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.3 MB.
-System memory in use after: 99.4 MB.
+Refreshing native plugins compatible for Editor in 18.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 59.3 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2559.
-Total: 3.644700 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.054200 ms MarkObjects: 3.287900 ms  DeleteObjects: 0.043900 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 2.357500 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.068200 ms MarkObjects: 1.932000 ms  DeleteObjects: 0.022000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 468.324853 seconds.
-  path: Assets/Scripts/globalFlock.cs
-  artifactKey: Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/globalFlock.cs using Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ae4053c25fe89bff761354900834ad') in 0.008647 seconds
-  Import took 0.012707 seconds .
+  path: Assets/Scripts/Flock.cs
+  artifactKey: Guid(520cb59cce79e3043a0d87c9e16b3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flock.cs using Guid(520cb59cce79e3043a0d87c9e16b3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7331165789219136f35bb4079baab7e5') in 0.041635 seconds
+  Import took 0.045232 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006839 seconds.
+Registered in 0.006077 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.27 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.206 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 2055 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.3 MB.
-System memory in use after: 100.4 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2562.
-Total: 3.741300 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.097400 ms MarkObjects: 3.225500 ms  DeleteObjects: 0.036900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 416.403137 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(52ac26d8d7aa2bf4b8549a44741545b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(52ac26d8d7aa2bf4b8549a44741545b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bd06b03d8630e7f877c90ddffe45cc') in 0.047476 seconds
-  Import took 0.052484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 109.801471 seconds.
-  path: Assets/Scripts/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2829d930d3e4341fa7e7bd1b10035786') in 0.006588 seconds
-  Import took 0.010200 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006255 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2563.
+Total: 2.494300 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.057400 ms MarkObjects: 2.063800 ms  DeleteObjects: 0.034500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.716028 seconds.
+  path: Assets/Scripts/Flock.cs
+  artifactKey: Guid(520cb59cce79e3043a0d87c9e16b3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flock.cs using Guid(520cb59cce79e3043a0d87c9e16b3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3612f51d9807edf9a69b55636540fe2') in 0.007728 seconds
+  Import took 0.011208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.479888 seconds.
+  path: Assets/spine.prefab
+  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a3b6943972a6b018fc22ccd66fcb35') in 0.035594 seconds
+  Import took 0.039199 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2567.
+Total: 3.464400 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.053000 ms MarkObjects: 3.119100 ms  DeleteObjects: 0.034200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.150897 seconds.
+  path: Assets/spine.prefab
+  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdac28a346b3a8834331518e328ad0be') in 0.035262 seconds
+  Import took 0.039087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.778929 seconds.
+  path: Assets/spine.prefab
+  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13ea791f8fe722de2ece289874037d7') in 0.007775 seconds
+  Import took 0.012070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006138 seconds.
+  path: Assets/spine.prefab
+  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13ea791f8fe722de2ece289874037d7') in 0.008932 seconds
+  Import took 0.013106 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 2.862200 ms (FindLiveObjects: 0.254800 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.517700 ms  DeleteObjects: 0.034200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.145394 seconds.
+  path: Assets/spine.prefab
+  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31e3b30bb659767c9c0bc086e41acca') in 0.036187 seconds
+  Import took 0.039912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068599 seconds.
+  path: Assets/spine.prefab
+  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31e3b30bb659767c9c0bc086e41acca') in 0.008715 seconds
+  Import took 0.012914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.799976 seconds.
+  path: Assets/CreatureHead.prefab
+  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7d62ff4f6926c8e014f6ff157f2ad5') in 0.070501 seconds
+  Import took 0.074138 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006198 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -174,23 +250,343 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.016 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 2056 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.4 MB.
-System memory in use after: 100.5 MB.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.8 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2566.
-Total: 2.977100 ms (FindLiveObjects: 0.280100 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.608400 ms  DeleteObjects: 0.033400 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 2.939900 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.053800 ms MarkObjects: 2.571500 ms  DeleteObjects: 0.046800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.828673 seconds.
+  path: Assets/CreatureHead.prefab
+  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb14533e308655446b8f5b2eb9d20671') in 0.062353 seconds
+  Import took 0.065867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.822099 seconds.
+  path: Assets/CreatureHead.prefab
+  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb14533e308655446b8f5b2eb9d20671') in 0.013170 seconds
+  Import took 0.016775 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006868 seconds.
+Registered in 0.006026 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2584.
+Total: 2.377900 ms (FindLiveObjects: 0.261000 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.035500 ms  DeleteObjects: 0.027600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2587.
+Total: 2.215200 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.885900 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 2.419700 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.054100 ms MarkObjects: 2.067500 ms  DeleteObjects: 0.026800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006035 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2593.
+Total: 2.669500 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.317600 ms  DeleteObjects: 0.031000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2596.
+Total: 2.309000 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.973900 ms  DeleteObjects: 0.025400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2188.856006 seconds.
+  path: Assets/CreatureHead.prefab
+  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91faa0daf620c72c72112d722cde2c73') in 0.063056 seconds
+  Import took 0.066932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.077044 seconds.
+  path: Assets/Scripts/globalFlock.cs
+  artifactKey: Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/globalFlock.cs using Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae13af82ecf14228e97305002997612') in 0.010440 seconds
+  Import took 0.014011 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 2.276500 ms (FindLiveObjects: 0.258300 ms CreateObjectMapping: 0.053600 ms MarkObjects: 1.940600 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.665827 seconds.
+  path: Assets/Scripts/globalFlock.cs
+  artifactKey: Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/globalFlock.cs using Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e76544103c6675cc1a25966d5c7a500') in 0.007432 seconds
+  Import took 0.010857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.922596 seconds.
+  path: Assets/Scene.unity
+  artifactKey: Guid(5d929add4786241cda93f6ec823d21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene.unity using Guid(5d929add4786241cda93f6ec823d21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efce020829d253fc34e44ad2bc14b2fd') in 0.015665 seconds
+  Import took 0.019194 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006197 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2603.
+Total: 3.298500 ms (FindLiveObjects: 0.298500 ms CreateObjectMapping: 0.054100 ms MarkObjects: 2.909900 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 2.635200 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.053500 ms MarkObjects: 2.265700 ms  DeleteObjects: 0.034900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.076015 seconds.
+  path: Assets/spine.prefab
+  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e23a5621971ff7893e005b247f8a5de') in 0.031406 seconds
+  Import took 0.035042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.807752 seconds.
+  path: Assets/spine.prefab
+  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e23a5621971ff7893e005b247f8a5de') in 0.008004 seconds
+  Import took 0.012422 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2609.
+Total: 2.460700 ms (FindLiveObjects: 0.255500 ms CreateObjectMapping: 0.055000 ms MarkObjects: 2.123600 ms  DeleteObjects: 0.025400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006825 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 103.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2612.
+Total: 2.310800 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.970000 ms  DeleteObjects: 0.029700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5316.272759 seconds.
+  path: Assets/Scripts/MazeDataGenerator.cs
+  artifactKey: Guid(f3a735d1bd21dca4a93c06496b318082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MazeDataGenerator.cs using Guid(f3a735d1bd21dca4a93c06496b318082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05385ac5c61fb19cfec22fa1e964e153') in 0.015089 seconds
+  Import took 0.019258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001015 seconds.
+  path: Assets/Scripts/MazeDataGenerator.cs
+  artifactKey: Guid(f3a735d1bd21dca4a93c06496b318082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MazeDataGenerator.cs using Guid(f3a735d1bd21dca4a93c06496b318082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05385ac5c61fb19cfec22fa1e964e153') in 0.004270 seconds
+  Import took 0.007775 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -199,549 +595,61 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.6 MB.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.8 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2570.
-Total: 2.882300 ms (FindLiveObjects: 0.329600 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.462300 ms  DeleteObjects: 0.033200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 103.568398 seconds.
-  path: Assets/Scripts/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8b52e53e569e1010f2bede32e89f2d') in 0.032384 seconds
-  Import took 0.036238 seconds .
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2615.
+Total: 2.368000 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.052000 ms MarkObjects: 2.004500 ms  DeleteObjects: 0.054100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.820654 seconds.
-  path: Assets/Scripts/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb79062e59d3b947f46e8c39b91a415') in 0.007336 seconds
-  Import took 0.011304 seconds .
+  Time since last request: 50.924357 seconds.
+  path: Assets/Scripts/MazeDataGenerator.cs
+  artifactKey: Guid(f3a735d1bd21dca4a93c06496b318082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MazeDataGenerator.cs using Guid(f3a735d1bd21dca4a93c06496b318082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1f568f51c4726eb97b64e9f53798d5') in 0.007670 seconds
+  Import took 0.011232 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 506.830355 seconds.
-  path: Assets/Head.prefab
-  artifactKey: Guid(1e020970a899e3a49b91b6a33d84ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Head.prefab using Guid(1e020970a899e3a49b91b6a33d84ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6920a15be58d61a7a41311158d95d376') in 0.087355 seconds
-  Import took 0.091224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005824 seconds.
-  path: Assets/Head.prefab
-  artifactKey: Guid(1e020970a899e3a49b91b6a33d84ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Head.prefab using Guid(1e020970a899e3a49b91b6a33d84ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6920a15be58d61a7a41311158d95d376') in 0.012768 seconds
-  Import took 0.016417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.769502 seconds.
-  path: Assets/Tail.prefab
-  artifactKey: Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail.prefab using Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed645baaf64d109acf7cbcaaf2327f5f') in 0.021960 seconds
-  Import took 0.025841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007025 seconds.
-  path: Assets/Tail.prefab
-  artifactKey: Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail.prefab using Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed645baaf64d109acf7cbcaaf2327f5f') in 0.012871 seconds
-  Import took 0.016376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.692715 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b340041768bdd323a4adbe634af687b6') in 0.006792 seconds
-  Import took 0.010940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008994 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b340041768bdd323a4adbe634af687b6') in 0.006680 seconds
-  Import took 0.010539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.491385 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cce0bd520386950750e886743581c21') in 0.007531 seconds
-  Import took 0.011399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009158 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cce0bd520386950750e886743581c21') in 0.007327 seconds
-  Import took 0.010980 seconds .
+  Time since last request: 0.000185 seconds.
+  path: Assets/Scripts/MazeMeshGenerator.cs
+  artifactKey: Guid(4f3c091e308bce24c87ae239a981b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MazeMeshGenerator.cs using Guid(4f3c091e308bce24c87ae239a981b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e81174c7acf75b87e95ffb5328724e') in 0.009248 seconds
+  Import took 0.012707 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006171 seconds.
+Registered in 0.006045 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.20 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.6 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2582.
-Total: 2.753600 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.391000 ms  DeleteObjects: 0.042600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006060 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.26 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.6 MB.
-System memory in use after: 103.7 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 3.245300 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.759500 ms  DeleteObjects: 0.032500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 285.952582 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b000c6b46eb9f8df9454ae0b0caa62') in 0.034340 seconds
-  Import took 0.038246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.573669 seconds.
-  path: Assets/Tail.prefab
-  artifactKey: Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail.prefab using Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e826fb72acd79426403eba369b54d6c0') in 0.045583 seconds
-  Import took 0.049364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.780931 seconds.
-  path: Assets/Tail.prefab
-  artifactKey: Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail.prefab using Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cabee8d3e079647acac6c62a94b5a3') in 0.013623 seconds
-  Import took 0.018078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004132 seconds.
-  path: Assets/Tail.prefab
-  artifactKey: Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail.prefab using Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cabee8d3e079647acac6c62a94b5a3') in 0.013933 seconds
-  Import took 0.018203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.595272 seconds.
-  path: Assets/Tail.prefab
-  artifactKey: Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail.prefab using Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae153027c5f8284e6e83e570b58df55a') in 0.014358 seconds
-  Import took 0.018065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003752 seconds.
-  path: Assets/Tail.prefab
-  artifactKey: Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail.prefab using Guid(c6adb9404a4345d4eb1e874a01470996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae153027c5f8284e6e83e570b58df55a') in 0.014447 seconds
-  Import took 0.018516 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006232 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.076 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.8 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2589.
-Total: 2.483800 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.056600 ms MarkObjects: 2.103700 ms  DeleteObjects: 0.026600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006010 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  1.032 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.6 MB.
-System memory in use after: 103.7 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2592.
-Total: 2.344800 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.011100 ms  DeleteObjects: 0.028200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006092 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 103.7 MB.
 System memory in use after: 103.8 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2595.
-Total: 2.928500 ms (FindLiveObjects: 0.301700 ms CreateObjectMapping: 0.059100 ms MarkObjects: 2.529500 ms  DeleteObjects: 0.036500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 237.514846 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09859d34884f40b7b934d6436b3806c') in 0.034211 seconds
-  Import took 0.038436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.807144 seconds.
-  path: Assets/Scripts/TentacleGenerator1.cs
-  artifactKey: Guid(157af4fec3543b44bb91ed36f6643456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TentacleGenerator1.cs using Guid(157af4fec3543b44bb91ed36f6643456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388c36a1e9afef58cf0bdebd29a9ab94') in 0.008807 seconds
-  Import took 0.012398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 426.178834 seconds.
-  path: Assets/Graphics/Roof-Mat.mat
-  artifactKey: Guid(3f8b123ba85c520459d79cd042e033fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Roof-Mat.mat using Guid(3f8b123ba85c520459d79cd042e033fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da4a4c8f64ff5c48d0217404eb80118') in 0.063746 seconds
-  Import took 0.067564 seconds .
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2618.
+Total: 2.392400 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.054100 ms MarkObjects: 2.051400 ms  DeleteObjects: 0.027700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007111 seconds.
+Registered in 0.006424 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 103.9 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2632.
-Total: 2.243500 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.053600 ms MarkObjects: 1.897500 ms  DeleteObjects: 0.021600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.446315 seconds.
-  path: Assets/Graphics/Roof-Mat.mat
-  artifactKey: Guid(3f8b123ba85c520459d79cd042e033fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Roof-Mat.mat using Guid(3f8b123ba85c520459d79cd042e033fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04fb8e3165e58987227e366008986a4') in 0.062249 seconds
-  Import took 0.065737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.884741 seconds.
-  path: Assets/Tail 1.prefab
-  artifactKey: Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail 1.prefab using Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1d98eb6f6e159567b182324e283dbb') in 0.029880 seconds
-  Import took 0.033411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008364 seconds.
-  path: Assets/Tail 1.prefab
-  artifactKey: Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail 1.prefab using Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1d98eb6f6e159567b182324e283dbb') in 0.011314 seconds
-  Import took 0.015009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.483762 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9509be0eb7bbac3fc288db8a0492531f') in 0.008766 seconds
-  Import took 0.012623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006405 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9509be0eb7bbac3fc288db8a0492531f') in 0.006694 seconds
-  Import took 0.010320 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006236 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 104.0 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2636.
-Total: 2.570500 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.055500 ms MarkObjects: 2.177200 ms  DeleteObjects: 0.029200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.634190 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f007b899ef1ff0e693e3b7b42e6fc0f') in 0.030755 seconds
-  Import took 0.034222 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006069 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 104.0 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2639.
-Total: 2.271400 ms (FindLiveObjects: 0.270500 ms CreateObjectMapping: 0.054900 ms MarkObjects: 1.921900 ms  DeleteObjects: 0.023000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1181.370395 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41cfa13f056e58f64cf5f3363de7353') in 0.013329 seconds
-  Import took 0.017226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.380896 seconds.
-  path: Assets/CreatureHead.blend
-  artifactKey: Guid(b8deb80b3b0d0174ba14c27b5fdfa48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatureHead.blend using Guid(b8deb80b3b0d0174ba14c27b5fdfa48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c86986a7011a0dbc1dc128e7e33387') in 0.124294 seconds
-  Import took 0.127929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.587798 seconds.
-  path: Assets/CreatureHead.blend
-  artifactKey: Guid(b8deb80b3b0d0174ba14c27b5fdfa48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatureHead.blend using Guid(b8deb80b3b0d0174ba14c27b5fdfa48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad42b63756350369ed9babb8629ddda') in 0.024166 seconds
-  Import took 0.028290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012642 seconds.
-  path: Assets/CreatureHead.blend
-  artifactKey: Guid(b8deb80b3b0d0174ba14c27b5fdfa48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatureHead.blend using Guid(b8deb80b3b0d0174ba14c27b5fdfa48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad42b63756350369ed9babb8629ddda') in 0.036234 seconds
-  Import took 0.040070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.667992 seconds.
-  path: Assets/CreatureHead.prefab
-  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b598291c852be39638dd21bb5d1c50') in 0.018060 seconds
-  Import took 0.021976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008980 seconds.
-  path: Assets/CreatureHead.prefab
-  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b598291c852be39638dd21bb5d1c50') in 0.012660 seconds
-  Import took 0.016446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.453709 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8394ddb654d38878108d734d8042d24') in 0.013394 seconds
-  Import took 0.017071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002302 seconds.
-  path: Assets/spine.prefab
-  artifactKey: Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spine.prefab using Guid(accc9f48ae971ad4d82ce0c7e7c536fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8394ddb654d38878108d734d8042d24') in 0.007341 seconds
-  Import took 0.011060 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006466 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.1 MB.
-System memory in use after: 104.2 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2646.
-Total: 2.254800 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.912700 ms  DeleteObjects: 0.022000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.324080 seconds.
-  path: Assets/CreatureHead.prefab
-  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfffb1865660d8d25e6ecaa8864049ec') in 0.083470 seconds
-  Import took 0.086960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.627376 seconds.
-  path: Assets/CreatureHead.prefab
-  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee89b2aefd146902c019b9612ec34ca7') in 0.017646 seconds
-  Import took 0.021335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.615298 seconds.
-  path: Assets/CreatureHead.prefab
-  artifactKey: Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatureHead.prefab using Guid(fe86f19a1a4a52843a53872fcb343ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bbb9afb0ede5cf78e15500785ef448') in 0.018564 seconds
-  Import took 0.022416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.302926 seconds.
-  path: Assets/Tail 1.prefab
-  artifactKey: Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail 1.prefab using Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a20b88714458b9b9503b46aa92412d') in 0.022930 seconds
-  Import took 0.026767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.576079 seconds.
-  path: Assets/Tail 1.prefab
-  artifactKey: Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail 1.prefab using Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e9fdf9778f70f9ee3b6c81ad462003') in 0.037713 seconds
-  Import took 0.041339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.028615 seconds.
-  path: Assets/Tail 1.prefab
-  artifactKey: Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail 1.prefab using Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b182d70aa58fbeeea2324ff2bd2ef0e') in 0.017847 seconds
-  Import took 0.021872 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006179 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.18 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -750,45 +658,292 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.021 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.1 MB.
-System memory in use after: 104.2 MB.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.8 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2650.
-Total: 2.383800 ms (FindLiveObjects: 0.317000 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.958400 ms  DeleteObjects: 0.053400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.923166 seconds.
-  path: Assets/Tail 1.prefab
-  artifactKey: Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tail 1.prefab using Guid(46cc64c522626cd45aa442941b461245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbcabf92c59a9d64fb79233958bbf30') in 0.064679 seconds
-  Import took 0.068299 seconds .
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2621.
+Total: 2.406200 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.041200 ms  DeleteObjects: 0.028900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006347 seconds.
+Registered in 0.006088 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2624.
+Total: 2.436600 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.064000 ms  DeleteObjects: 0.050300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 861.165829 seconds.
+  path: Assets/Scripts/Flock.cs
+  artifactKey: Guid(520cb59cce79e3043a0d87c9e16b3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flock.cs using Guid(520cb59cce79e3043a0d87c9e16b3010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b836f0f847fe26f4d4f6523ce234d4') in 0.008750 seconds
+  Import took 0.012509 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.597000 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.215400 ms  DeleteObjects: 0.036100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.353462 seconds.
+  path: Assets/Scripts/globalFlock.cs
+  artifactKey: Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/globalFlock.cs using Guid(0057365f9cd78dd439e7e4b3156dcd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748a20c83914a8ca65fa464d4ea97954') in 0.007887 seconds
+  Import took 0.011605 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2630.
+Total: 2.277500 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.929300 ms  DeleteObjects: 0.027100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.18 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 2.821200 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.472100 ms  DeleteObjects: 0.028800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006435 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2636.
+Total: 2.409200 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.054900 ms MarkObjects: 2.057100 ms  DeleteObjects: 0.024000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2639.
+Total: 2.392000 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.027300 ms  DeleteObjects: 0.026400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 2.509900 ms (FindLiveObjects: 0.267900 ms CreateObjectMapping: 0.054100 ms MarkObjects: 2.154100 ms  DeleteObjects: 0.032400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2645.
+Total: 2.268800 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.932700 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.2 MB.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2648.
+Total: 2.462900 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.055400 ms MarkObjects: 2.118700 ms  DeleteObjects: 0.026000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2651.
+Total: 2.407700 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.055100 ms MarkObjects: 2.051900 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2654.
-Total: 2.409000 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.061100 ms  DeleteObjects: 0.025700 ms)
+Total: 2.551200 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.058800 ms MarkObjects: 2.188500 ms  DeleteObjects: 0.029600 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

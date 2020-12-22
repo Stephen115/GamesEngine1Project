@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8495000044086470960}
   - component: {fileID: 8495000044086470962}
   - component: {fileID: 8495000044086470963}
+  - component: {fileID: -4566162588818961750}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -46,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offsets: []
   children: []
-  damping: 15
+  damping: 8
 --- !u!114 &8495000044086470963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,3 +64,16 @@ MonoBehaviour:
   segmentDist: 0.5
   headPrefab: {fileID: 7581988480698697504, guid: fe86f19a1a4a52843a53872fcb343ba7, type: 3}
   segmentPrefab: {fileID: 4109537680402307183, guid: 46cc64c522626cd45aa442941b461245, type: 3}
+--- !u!114 &-4566162588818961750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495000044086470961}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520cb59cce79e3043a0d87c9e16b3010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1

@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+
+    public static int MazeBlockx = 27;
+    public static int MazeBlockz = 31;
+
     //1
     [SerializeField] private FpsMovement player;
     [SerializeField] private Text timeLabel;
@@ -17,6 +21,8 @@ public class GameController : MonoBehaviour
     private DateTime startTime;
     private int timeLimit;
     private int reduceLimitBy;
+    private int Mazex;
+    private int Mazez;
 
     private int score;
     private bool goalReached;
@@ -44,7 +50,9 @@ public class GameController : MonoBehaviour
     //5
     private void StartNewMaze()
     {
-        generator.GenerateNewMaze(13, 15, OnStartTrigger, OnGoalTrigger);
+        Mazex = GameController.MazeBlockx;
+        Mazez = GameController.MazeBlockz;
+        generator.GenerateNewMaze(Mazex, Mazez, OnStartTrigger, OnGoalTrigger);
 
         float x = generator.startCol * generator.hallWidth;
         float y = 1;
