@@ -8,7 +8,10 @@ public class Flock : MonoBehaviour
     float rotationSpeed = 4.0f;
     Vector3 averageHeading;
     Vector3 averagePosition;
-    float neighbourDistance = 2.0f;
+    float neighbourDistance = 3.0f;
+    private float Tankx;
+    private float Tanky;
+    private float Tankz;
 
     bool turning = false;
 
@@ -21,9 +24,15 @@ public class Flock : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
-            //THIS IS CAUSING THE CIRCLING AROUND 0 NEED TO FIGURE OUT THE MATHS FOR THE MAZE SIZES
-        if (Vector3.Distance(transform.position, Vector3.zero) >= globalFlock.tankSize)
+    {
+        Tankx = (GameController.MazeBlockx * MazeMeshGenerator.widthSet)/2;
+        Tankz = (GameController.MazeBlockz * MazeMeshGenerator.widthSet)/2;
+        Tanky = (MazeMeshGenerator.heightSet)/2;
+        Vector3 midTank = new Vector3(Tankx,
+                                      Tanky,
+                                      Tankz);
+        //THIS IS CAUSING THE CIRCLING AROUND 0 NEED TO FIGURE OUT THE MATHS FOR THE MAZE SIZES
+        if (Vector3.Distance(transform.position, midTank) >= globalFlock.tankSize)
         {
             turning = true;
         }
@@ -33,7 +42,7 @@ public class Flock : MonoBehaviour
 
         if (turning)
         {
-            Vector3 direction = Vector3.zero - transform.position;
+            Vector3 direction = midTank - transform.position;
             transform.rotation = Quaternion.Slerp(transform.rotation,
                                                   Quaternion.LookRotation(direction),
                                                   rotationSpeed * Time.deltaTime);

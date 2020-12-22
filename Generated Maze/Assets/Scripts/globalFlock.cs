@@ -6,7 +6,7 @@ public class globalFlock : MonoBehaviour
 {
     public GameObject fishPrefab;
     public GameObject goalPrefab;
-    public static int tankSize = 5;
+    public static int tankSize = 30;
     private float Tankx;
     private float Tanky;
     private float Tankz;
