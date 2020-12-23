@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 115
+  controlID: 108
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 116
+  controlID: 41
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 117
+  controlID: 42
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: dc41feff
-      m_LastClickedID: -114212
-      m_ExpandedIDs: 24fbffff3245000058450000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ee14feff1ac8feffa6d2feff28f9ffff24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 21.368502, y: 24.237999, z: 13.2854}
+    m_Target: {x: 44.545822, y: 24.885147, z: 10.917661}
     speed: 2
-    m_Value: {x: 21.368502, y: 24.237999, z: 13.2854}
+    m_Value: {x: 44.545822, y: 24.885147, z: 10.917661}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -508,13 +508,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07253255, y: 0.2669486, z: -0.020033393, w: 0.9609075}
+    m_Target: {x: -0.259034, y: 0.40484834, z: -0.12079431, w: -0.8687469}
     speed: 2
-    m_Value: {x: 0.07690881, y: 0.26393756, z: -0.02100158, w: 0.9612393}
+    m_Value: {x: -0.26196262, y: 0.40181533, z: -0.121204495, w: -0.8690395}
   m_Size:
-    m_Target: 35.03683
+    m_Target: 6.116578
     speed: 2
-    m_Value: 33.52807
+    m_Value: 6.116578
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -602,22 +602,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\steph\Git Desktop\GamesEngine1Project\Generated Maze
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 23}
-    m_SelectedIDs: c6460000
-    m_LastClickedID: 18118
-    m_ExpandedIDs: 00000000c6460000c8460000ca460000cc460000e2460000e4460000d8520000e852000000ca9a3b
+    m_SelectedIDs: 74470000
+    m_LastClickedID: 18292
+    m_ExpandedIDs: 000000005447000056470000584700005a4700005c4700005e4700006c4700003856000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,7 +645,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c6460000c8460000ca460000cc460000
+    m_ExpandedIDs: 000000005447000056470000584700005a4700005c4700005e470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
