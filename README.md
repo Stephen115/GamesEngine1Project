@@ -39,6 +39,17 @@ As of now there is no defined end to the game, the user may wander the corridors
 
 Please Note that this application is definitely going to cause motion sickness with extended use.
 
+## What am I most proud of in this assignment
+This assignment has been one of the most enjoyable and rewarding ones I've ever had in college, I intend to be working with visual things when I am out of college and I am aiming for some sort of career in Game Developement. 
+
+This assignment has reaffirmed my belief that this is possible for me and that I will be happy working in such a way. I am proud I have been able to use a project in college to allow my creativity to go a little overboard, even if it did mean my scope was a little too big for the time I had left after other projects, and even if I did give myself motion sickness once or twice.
+
+It is all experience at the end of the day and I feel this project has not only helped me with my FYP but also with understanding what I most enjoy about programming and creating using Computer Science.
+
+There was a lot of complicated mixing of unrelated assets, I am proud I was able to get so many different components working together, first adding VR to the generated maze, then creating flocks of "fish", then being able to figure out how to have a pathfinding AI properly detect the maze I had generated. 
+
+I am proud I am also able to do things without having much prior knowledge about them, it makes me hopeful I will be able to manage in places that at first seem hard to manage in, it is also super rewarding to get things you had no knowledge about before finsihed and take away valuable lessons from completing them.
+
 ## Video Demo Link
 https://youtu.be/fWEHgpY1PWY
 
