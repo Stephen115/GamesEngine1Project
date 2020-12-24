@@ -30,6 +30,7 @@ public class GameController : MonoBehaviour
     //3
     void Start()
     {
+        player = GameObject.FindWithTag("Player").GetComponent<FpsMovement>();
         generator = GetComponent<MazeConstructor>();
         StartNewGame();
     }
@@ -42,7 +43,7 @@ public class GameController : MonoBehaviour
         startTime = DateTime.Now;
 
         score = 0;
-        scoreLabel.text = score.ToString();
+        //scoreLabel.text = score.ToString();
 
         StartNewMaze();
     }
@@ -80,11 +81,11 @@ public class GameController : MonoBehaviour
 
         if (timeLeft > 0)
         {
-            timeLabel.text = timeLeft.ToString();
+            //timeLabel.text = timeLeft.ToString();
         }
         else
         {
-            timeLabel.text = "TIME UP";
+            //timeLabel.text = "TIME UP";
             player.enabled = false;
 
             Invoke("StartNewGame", 4);
@@ -98,7 +99,7 @@ public class GameController : MonoBehaviour
         goalReached = true;
 
         score += 1;
-        scoreLabel.text = score.ToString();
+        //scoreLabel.text = score.ToString();
 
         Destroy(trigger);
     }

@@ -6,6 +6,7 @@ public class MazeConstructor : MonoBehaviour
     public bool showDebug;
     private MazeDataGenerator dataGenerator;
     private MazeMeshGenerator meshGenerator;
+    public GameObject enemy;
 
 
     [SerializeField] private Material mazeMat1;
@@ -116,6 +117,10 @@ public class MazeConstructor : MonoBehaviour
 
         TriggerEventRouter tc = go.AddComponent<TriggerEventRouter>();
         tc.callback = callback;
+
+        Instantiate(enemy, new Vector3(goalCol * hallWidth, 5.0f, goalRow * hallWidth), Quaternion.identity);
+
+
     }
 
 
@@ -128,6 +133,10 @@ public class MazeConstructor : MonoBehaviour
     //3
     void Awake()
     {
+
+        GameObject g = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        MeshCollider m = g.AddComponent<MeshCollider>();
+        g.tag = "forbidden";
         meshGenerator = new MazeMeshGenerator();
         dataGenerator = new MazeDataGenerator();
         // default to walls surrounding a single empty cell
@@ -137,6 +146,7 @@ public class MazeConstructor : MonoBehaviour
             {1, 0, 1},
             {1, 1, 1}
         };
+
     }
 
     public void GenerateNewMaze(int sizeRows, int sizeCols,
@@ -206,7 +216,7 @@ public class MazeConstructor : MonoBehaviour
         GameObject go = new GameObject();
         go.transform.position = Vector3.zero;
         go.name = "Procedural Maze";
-        go.tag = "Generated";
+        go.tag = "forbidden";
 
         MeshFilter mf = go.AddComponent<MeshFilter>();
         mf.mesh = meshGenerator.FromData(data);
