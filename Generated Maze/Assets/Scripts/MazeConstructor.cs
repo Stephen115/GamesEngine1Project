@@ -118,7 +118,7 @@ public class MazeConstructor : MonoBehaviour
         TriggerEventRouter tc = go.AddComponent<TriggerEventRouter>();
         tc.callback = callback;
 
-        Instantiate(enemy, new Vector3(goalCol * hallWidth, .5f, goalRow * hallWidth), Quaternion.identity);
+        Instantiate(enemy, new Vector3(goalCol * hallWidth, 5.0f, goalRow * hallWidth), Quaternion.identity);
 
 
     }

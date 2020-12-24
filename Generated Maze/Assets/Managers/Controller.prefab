@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showDebug: 0
   enemy: {fileID: 5580720562411886902, guid: 41440d01be2e2074bb0d39747e37b41c, type: 3}
-  mazeMat1: {fileID: 2100000, guid: 3f8b123ba85c520459d79cd042e033fc, type: 2}
+  mazeMat1: {fileID: 2100000, guid: a5eda5234534e804ab608a27ea85ffe9, type: 2}
   mazeMat2: {fileID: 2100000, guid: e203ee36c9a2ebd46853d0c4bf1d5d64, type: 2}
   startMat: {fileID: 2100000, guid: c8296ee06001c4d39b0f615626264b85, type: 2}
   treasureMat: {fileID: 2100000, guid: c5b8154923bae4fedbbb1f1aca66fd98, type: 2}

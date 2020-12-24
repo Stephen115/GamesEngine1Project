@@ -58,7 +58,7 @@ PrefabInstance:
     - target: {fileID: 8495000044086470963, guid: accc9f48ae971ad4d82ce0c7e7c536fc, type: 3}
       propertyPath: headPrefab
       value: 
-      objectReference: {fileID: 2823784257897327225, guid: d73eeb96cbf0a34439fcb45a51a0f4a1, type: 3}
+      objectReference: {fileID: 7625316812916429259, guid: dc3aa3eb9d944e346ae59cf63604f7d4, type: 3}
     - target: {fileID: 8495000044086470963, guid: accc9f48ae971ad4d82ce0c7e7c536fc, type: 3}
       propertyPath: numSegments
       value: 15
@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 8495000044086470963, guid: accc9f48ae971ad4d82ce0c7e7c536fc, type: 3}
       propertyPath: segmentPrefab
       value: 
-      objectReference: {fileID: 7388591429898305902, guid: 583b4ed6a7aec3240bb61c35c70c05cf, type: 3}
+      objectReference: {fileID: 8766632076451628059, guid: a0539eec950ce0b4484844662d36bc40, type: 3}
     m_RemovedComponents:
     - {fileID: -4566162588818961750, guid: accc9f48ae971ad4d82ce0c7e7c536fc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: accc9f48ae971ad4d82ce0c7e7c536fc, type: 3}

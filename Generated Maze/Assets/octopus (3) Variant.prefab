@@ -24,9 +24,9 @@ MonoBehaviour:
   heuristicFactor: 0.9
   trajectoryOptimization: 1
   trajectorySmoothing: 1
-  speed: 1e-45
+  speed: 0.09375
   moveVectorOrientation: 1
-  turnSpeed: 1e-45
+  turnSpeed: 2
   reckDynamicObstacles: 0
   generateEventMessages: 1
   generateCondMessages: 1

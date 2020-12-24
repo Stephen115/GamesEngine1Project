@@ -12,7 +12,7 @@ public class PursuerController : MonoBehaviour
 
     void Start()
     {
-        Invoke("TheGraphIsReady", 30.0f);
+
     }
 
 }
